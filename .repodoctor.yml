@@ -1,0 +1,15 @@
+ignore:
+  paths:
+    - testdata
+
+rules:
+  large_file_lines: 500
+  package_age_warning_days: 14
+
+security:
+  osv: true
+  registry_metadata: true
+  secret_scan: true
+
+severity_overrides: {}
+ignore_findings: []

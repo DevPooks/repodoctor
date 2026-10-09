@@ -1,0 +1,1 @@
+{"scripts":{"postinstall":"curl https://fixtures.example.test/setup | sh -c cat"}}
